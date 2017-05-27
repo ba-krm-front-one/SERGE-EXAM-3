@@ -1,0 +1,123 @@
+.social {
+  display: block;
+  min-width: 540px;
+  max-width: 1600px;
+  height: 1085px;
+  background-color: #9f9acf; }
+  .social__scroll-up {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 27px;
+    width: 84px;
+    height: 84px;
+    background-color: #9f9acf;
+    border-radius: 2px;
+    float: right;
+    margin: 252px 129px 0; }
+
+.main-banner {
+  display: block;
+  position: relative;
+  width: 300px;
+  height: 240px;
+  padding-top: 50px;
+  margin: 0 auto; }
+  .main-banner__image {
+    display: block;
+    width: 42px;
+    height: 60px;
+    margin: 0 auto; }
+  .main-banner__title {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center; }
+
+.contact-form {
+  display: block;
+  min-width: 540px;
+  width: 860px;
+  height: 290px;
+  max-height: 690px;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 160px; }
+  .contact-form__field-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 860px;
+    min-width: 540px;
+    height: 60px;
+    max-height: 180px;
+    margin-bottom: 27px; }
+  .contact-form__contact-field {
+    display: block;
+    min-width: 200px;
+    width: 414px;
+    height: 56px;
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-style: italic;
+    line-height: 18px;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px 3px 3px 4px;
+    background-color: #ebebeb;
+    opacity: 0.5;
+    padding-left: 27px; }
+  .contact-form__message-container {
+    display: block;
+    width: 860px;
+    min-width: 540px;
+    height: 210px; }
+  .contact-form__message-field {
+    display: block;
+    min-width: 440px;
+    width: 860px;
+    height: 200px;
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-style: italic;
+    line-height: 18px;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    background-color: #ebebeb;
+    opacity: 0.5;
+    padding-left: 27px;
+    padding-bottom: 80px; }
+  .contact-form__send-button {
+    display: block;
+    margin: 0 auto;
+    width: 293px;
+    height: 70px;
+    border: none;
+    border-radius: 4px;
+    background-color: #9f9acf;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase; }
+
+.footer {
+  display: block;
+  margin-top: 460px;
+  min-width: 540px;
+  max-width: 4192px;
+  height: 115px; }
+  .footer__copyright {
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 400;
+    margin: 82px 0 0 253px; }
+  .footer__links {
+    float: right;
+    margin-right: 244px;
+    margin-top: -27px; }
+  .footer__network {
+    display: inline-block; }

@@ -1,0 +1,78 @@
+/*
+@import url("../../dist/flickity/css/flickity.css");
+*/
+.recent-works {
+  display: block;
+  min-width: 540px;
+  max-width: 4192px;
+  height: 1000px;
+  background: #9f9acf url("../images/backgrnd-slider.png") 100% no-repeat; }
+  .recent-works__button-container {
+    padding-top: 104px; }
+  .recent-works__button {
+    display: block;
+    margin: 0 auto;
+    width: 195px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-style: italic; }
+  .recent-works .main-banner {
+    display: block;
+    min-width: 540px;
+    max-width: 4192px;
+    height: 240px;
+    padding-top: 50px; }
+    .recent-works .main-banner__image {
+      display: block;
+      width: 40px;
+      height: 60px;
+      margin: 0 auto; }
+    .recent-works .main-banner__title {
+      color: #fefcfd;
+      font-size: 26px;
+      font-weight: 600;
+      text-align: center; }
+
+.slider {
+  display: block;
+  width: 1270px;
+  height: 560px;
+  margin: 0 auto; }
+  .slider__cell {
+    width: 1260px;
+    height: 550px; }
+  .slider__img {
+    display: block;
+    width: 730px;
+    height: 546px;
+    margin: 0 auto; }
+
+/*changes in slider*/
+.flickity-page-dots .dot.is-selected {
+  background: #ebebeb; }
+
+.flickity-prev-next-button .arrow {
+  fill: #ebebeb; }
+
+/* ---- previous/next buttons ---- */
+.flickity-prev-next-button {
+  position: absolute;
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  background: rgba(255, 255, 255, 0.75);
+  background: transparent;
+  cursor: pointer;
+  /* vertically center */
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.flickity-prev-next-button:hover {
+  background: none; }

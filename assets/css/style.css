@@ -1,0 +1,17 @@
+@import url(header.css);
+@import url(main.css);
+@import url(main-grid.css);
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700");
+@import url(flickity.css);
+@import url(recent-works.css);
+@import url(our-team.css);
+@import url(google-map.css);
+@import url(footer.css);
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal; }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }

@@ -1,0 +1,55 @@
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  min-width: 540px;
+  max-width: 4192px;
+  height: 800px;
+  background-color: #ebebeb; }
+  .about__image {
+    background: url("../images/main-people.png") 100%, no-repeat;
+    float: left;
+    display: block;
+    width: 380px;
+    height: 555px; }
+    .about__image h2 {
+      color: #fefbfc;
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 47px;
+      text-transform: uppercase; }
+  .about__text {
+    /*float: right;
+    margin-right: 250px;*/
+    padding-top: 78px;
+    display: block;
+    min-width: 540px;
+    max-width: 660px;
+    height: 555px; }
+  .about__some-fish {
+    width: 633px;
+    min-width: 200px;
+    margin: 0 auto;
+    color: #665f60;
+    font-family: "PT Sans";
+    font-size: 20px;
+    /* Text style for "Nullam qui" */
+    font-weight: 400; }
+  .about__button {
+    width: 195px;
+    height: 50px;
+    border: 1px solid #7d7a7c;
+    background-color: transparent;
+    margin-top: 93px;
+    margin-left: 220px;
+    color: #7d7a7c;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-style: italic; }
+  .about .ion-person-stalker {
+    font-size: 50px;
+    color: #ebebeb;
+    text-align: center;
+    padding-top: 75px; }

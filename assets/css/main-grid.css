@@ -1,0 +1,61 @@
+main {
+  background-color: #ebebeb; }
+
+.grid {
+  display: block;
+  width: 1170px;
+  height: 800px;
+  margin: 0 auto; }
+  .grid__grid-item {
+    display: block;
+    float: left;
+    width: 380px;
+    height: 400px; }
+  .grid__grey {
+    background-color: #dbdbdb; }
+  .grid__long {
+    background: url("../images/main-laptop.png") 100%, no-repeat;
+    width: 410px;
+    height: 800px;
+    float: right; }
+  .grid__icon {
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px; }
+    .grid__icon--modified {
+      display: block;
+      margin: 0 auto;
+      padding-top: 116px; }
+  .grid__name {
+    color: #665f60;
+    font-family: "PT Sans";
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center; }
+    .grid__name--large-name {
+      color: #fefcfd;
+      font-size: 36px;
+      font-weight: 600;
+      text-align: center;
+      padding-bottom: 63px; }
+  .grid__overwiew {
+    display: block;
+    width: 190px;
+    height: 39px;
+    color: #665f60;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    margin: 0 auto;
+    text-align: center; }
+    .grid__overwiew--text-color {
+      color: #fefcfd;
+      display: block;
+      width: 346px;
+      height: 59px;
+      font-family: "PT Sans";
+      font-size: 17px;
+      font-weight: 500;
+      margin: 0 auto;
+      text-align: center; }

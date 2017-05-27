@@ -1,0 +1,7 @@
+.google-map {
+  min-width: 1920px;
+  max-width: 4190px;
+  height: 900px;
+  color: #9f9acf;
+  opacity: 0.5;
+  position: absolute; }

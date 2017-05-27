@@ -1,0 +1,58 @@
+.header {
+  display: block;
+  min-width: 540px;
+  max-width: 4192px;
+  height: 1070px;
+  background: url("../images/header-backgrnd.png") 100%, no-repeat;
+  background-size: cover;
+  &__logo {
+    display: block;
+    float: left;
+   /* width: 54px;
+    height: 72px;*/
+    margin: 36px 0 0 245px ;
+    /*min-width: 27px;
+    min-height: 36px;*/
+  }
+  &__navigation {
+    margin-right: 245px;
+    margin-top: 57px;
+    float: right;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    li {
+      display: inline-block;
+      margin-left: 28px;
+      a {
+      text-decoration: none;
+      color: #ffffff;
+      }
+    }
+  }
+  &__name {
+    text-transform: uppercase;
+    color: #fefefb;
+    font-size: 50px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding-top: 406px;
+    margin-top: -22px;
+  }
+  &__description {
+    width: 656px;
+    height: 65px;
+    color: #fefdfd;
+    font-family: "PT Sans",sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 300;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
