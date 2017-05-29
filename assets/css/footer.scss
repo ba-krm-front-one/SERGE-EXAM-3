@@ -4,6 +4,81 @@
   max-width: 1600px;
   height: 1085px;
   background-color: #9f9acf;
+ /* &__aside-contact-info {
+    display: block;
+    width: 605px;
+    height: 182px;
+    float: right;
+    margin-right: -257px;
+  }*/
+  &__address {
+    display: block;
+    width: 348px;
+    height: 91px;
+    background-color: #ebebeb;
+    opacity: 0.5;
+    float: right;
+    //margin-right: calc(100vw - 1800px);
+    margin-right: -257px;
+    &:hover{
+      transform: translateX(-74%);
+      transition: 1s;
+    }
+  }
+  &__image-container {
+    display: block;
+    width: 91px;
+    height: 91px;
+    background-color: #76769e;
+    float: left;
+    border-top: 1px solid #ebebeb;
+
+  }
+  &__icon-address {
+    display: block;
+    width: 38px;
+    height: 36px;
+    color: #ffffff;
+    margin: 26px;
+  }
+  &__geo-address {
+    display: block;
+    text-align: center;
+    width: 200px;
+    height: 91px;
+    float: right;
+    margin-right: 35px;
+  }
+  &__number {
+    clear: both;
+    display: block;
+    width: 348px;
+    height: 91px;
+    background-color: #ebebeb;
+    opacity: 0.5;
+    float: right;
+    margin-right: -257px;
+    &:hover{
+      transform: translateX(-74%);
+      transition: 1s;
+    }
+  }
+  &__icon-number {
+    display: block;
+    width: 20px;
+    height: 34px;
+    color: #ffffff;
+    margin: 28px 34px;
+  }
+  &__number-phone {
+    display: block;
+    text-align: center;
+    width: 160px;
+    height: 41px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 38px;
+  }
   &__scroll-up {
     display: block;
     position: relative;
@@ -13,16 +88,23 @@
     height: 84px;
     background-color: #9f9acf;
     border-radius: 2px;
-    //opacity: 0.5;
     float: right;
-    margin: 252px 129px 0;
+    margin: 85px 129px 0 0;
+    &:hover {
+      transform: translateY(15px);
+      transition: 0.5s;
+      background-color: #5a4dcf;
+    }
+    a {
+      padding: 10px 0;
+    }
   }
 }
 .main-banner {
   display: block;
   position: relative;
   width: 300px;
-  height: 240px;
+  height: 210px;
   padding-top: 50px;
   margin: 0 auto;
   &__image {
@@ -38,15 +120,17 @@
     text-align: center;
   }
 }
+
 .contact-form {
+  clear: both;
   display: block;
   min-width: 540px;
   width: 860px;
   height: 290px;
   max-height: 690px;
   position: relative;
+  padding-top: 38px;
   margin: 0 auto;
-  padding-top: 160px;
   &__field-container {
     display: flex;
     justify-content: space-between;
@@ -79,6 +163,7 @@
     width: 860px;
     min-width: 540px;
     height: 210px;
+    margin-bottom: 50px;
   }
   &__message-field {
     display: block;
@@ -95,7 +180,7 @@
     background-color: #ebebeb;
     opacity: 0.5;
     padding-left: 27px;
-    padding-bottom: 80px;
+    padding-bottom: 135px;
   }
   &__send-button {
     display: block;
@@ -105,19 +190,25 @@
     border: none;
     border-radius: 4px;
     background-color: #9f9acf;
-    //margin-top: 93px;
     color: #ffffff;
     font-family: "Proxima Nova";
     font-size: 14px;
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
+    &:hover {
+      color: #ebebeb;
+      transform: scale(0.9);
+      transition: 0.8s;
+      background-color: #24a869;
+    }
   }
 }
 
 .footer {
   display: block;
-  margin-top: 460px;
+  position: relative;
+  margin-top: 310px;
   min-width: 540px;
   max-width: 4192px;
   height: 115px;
@@ -135,5 +226,20 @@
   }
   &__network {
     display: inline-block;
+    margin-left: 20px;
+  /*}
+  &__image*/
+  a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #21c18e;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    :hover {
+      display: block;
+      border: 2px solid #ff3aff;
+      border-radius: 50%;
+    }
   }
-}
+}}

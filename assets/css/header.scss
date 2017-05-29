@@ -8,11 +8,7 @@
   &__logo {
     display: block;
     float: left;
-   /* width: 54px;
-    height: 72px;*/
-    margin: 36px 0 0 245px ;
-    /*min-width: 27px;
-    min-height: 36px;*/
+    margin: 36px 0 0 245px;
   }
   &__navigation {
     margin-right: 245px;
@@ -28,8 +24,14 @@
       display: inline-block;
       margin-left: 28px;
       a {
-      text-decoration: none;
-      color: #ffffff;
+        text-decoration: none;
+        color: #ffffff;
+      }
+      a:hover {
+        padding-bottom: 5px;
+        border-bottom: 3px solid red;
+        color: #ebebeb;
+        transition: 1s;
       }
     }
   }
@@ -47,7 +49,7 @@
     width: 656px;
     height: 65px;
     color: #fefdfd;
-    font-family: "PT Sans",sans-serif;
+    font-family: "PT Sans", sans-serif;
     font-size: 25px;
     font-style: italic;
     font-weight: 300;

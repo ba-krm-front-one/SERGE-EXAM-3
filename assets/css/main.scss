@@ -10,6 +10,7 @@
   background-color: #ebebeb;
   &__image {
     background: url("../images/main-people.png") 100%, no-repeat;
+    background-size: cover;
     float: left;
     display: block;
     width: 380px;
@@ -22,6 +23,15 @@
       text-transform: uppercase;
     }
   }
+  @media all and (max-width: 1035px) {
+    &__image {
+      display: block;
+      min-width: 540px;
+      width: 1030px;
+      height: 200px;
+      margin-top: -50px;
+    }
+  }
   &__text {
     /*float: right;
     margin-right: 250px;*/
@@ -31,7 +41,7 @@
     max-width: 660px;
     height: 555px;
   }
-    &__some-fish {
+  &__some-fish {
       width: 633px;
       min-width: 200px;
       margin: 0 auto;
@@ -41,7 +51,8 @@
       /* Text style for "Nullam qui" */
       font-weight: 400;
     }
-    &__button {
+  &__button {
+      display: block;
       width: 195px;
       height: 50px;
       border: 1px solid #7d7a7c;
@@ -52,6 +63,12 @@
       font-family: "PT Sans";
       font-size: 20px;
       font-style: italic;
+      &:hover {
+        transition: 1.2s;
+        background-image: linear-gradient( #ebebeb, #9f9acf, #ebebeb);
+        border: none;
+        color: #ebebeb;
+      }
     }
   .ion-person-stalker {
     font-size: 50px;

@@ -17,16 +17,16 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body bgcolor="#9f9acf">
+<body bgcolor="#9f9acf">    <!--BACKGROUND COLOR-->
 <header>
-    <div class="header">
+    <div class="header" id="to-top">
         <img class="header__logo" src="assets/images/header-logo.svg" alt="">
         <ul class="header__navigation">
             <li><a href="">home</a></li>
-            <li><a href="">about</a></li>
-            <li><a href="">services</a></li>
-            <li><a href="">works</a></li>
-            <li><a href="">contact</a></li>
+            <li><a class="scroll-to" href="#about">about</a></li>
+            <li><a class="scroll-to" href="#services">services</a></li>
+            <li><a class="scroll-to" href="#works">works</a></li>
+            <li><a class="scroll-to" href="#contact">contact</a></li>
         </ul>
         <h1 class="header__name">CreativE DIGITAL Project</h1>
         <h3 class="header__description">Duis mollis, est non commodo luctus,<br>
@@ -34,10 +34,9 @@
     </div>
 </header>
 <main>
-    <div class="about">
+    <div class="about scroll-to" id="about">
         <div class="about__image ion-person-stalker">
             <h2>about us</h2>
-            <!--<img src="assets/images/main-people.png" alt="">-->
         </div>
         <div class="about__text">
             <div class="about__some-fish">
@@ -55,7 +54,7 @@
             <button class="about__button">Learn More</button>
         </div>
     </div>
-    <div class="grid">
+    <div class="grid scroll-to" id="services">
         <div class="grid__grid-item grid__grey">
             <img class="grid__icon" src="assets/images/mainicon-graph.png" alt="">
             <h3 class="grid__name">GRAPHIC DESIGN</h3>
@@ -85,7 +84,7 @@
         </div>
     </div>
 </main>
-<section class="recent-works">
+<section class="recent-works scroll-to" id="works">
     <div class="main-banner">
         <img class="main-banner__image" src="assets/images/slidericon-pen.png" alt="">
         <h2 class="main-banner__title">RECENT WORKS</h2>
@@ -141,7 +140,7 @@
         </div>
         <div class="our-team__member">
             <img class="our-team__photo" src="assets/images/memb3.png" alt="">
-            <h4 class="our-team__name">Art Director</h4>
+            <h4 class="our-team__name">Ida Morrison</h4>
             <h5 class="our-team__profession">Designer</h5>
             <ul class="our-team__contacts">
                 <li class="our-team__social-link">
@@ -177,13 +176,27 @@
 </section>
 <address class="google-map">
 </address>
-
-
-<footer class="social">
+<footer class="social scroll-to" id="contact">
     <div class="main-banner">
         <img class="main-banner__image" src="assets/images/location-icon.png" alt="">
         <h2 class="main-banner__title">GET IN TOUCH</h2>
     </div>
+    <!--<div class="social__aside-contact-info">-->
+        <div class="social__address">
+            <div class="social__image-container">
+                <img class="social__icon-address" src="assets/images/icon-address.png" alt="">
+            </div>
+            <p class="social__geo-address">Ikan Piranha Atas 220C
+                Malang - East Java
+                Indonesia</p>
+        </div>
+        <div class="social__number">
+            <div class="social__image-container">
+                <img class="social__icon-number" src="assets/images/icon-number.png" alt="">
+            </div>
+            <p class="social__number-phone">+62-7871234567</p>
+        </div>
+    <!--</div>-->
     <form action="#" class="contact-form">
         <span class="contact-form__field-container">
             <input class="contact-form__contact-field" type="text" name="name" value="Your Name *">
@@ -195,7 +208,7 @@
         <button class="contact-form__send-button">SEND MESSAGE</button>
     </form>
     <div class="social__scroll-up">
-        <a href="">
+        <a href="#to-top" class="scroll-to">
             <img src="assets/images/arrow-top.svg" alt="">
         </a>
     </div>
@@ -204,24 +217,23 @@
         <h4 class="footer__copyright">©2014 <b>tulus</b>driyo. All Rights Reserved.</h4>
         <ul class="footer__links">
             <li class="footer__network">
-                <a href="https://www.behance.net/"><img src="assets/images/social-behance.svg" alt=""></a></li>
+                <a href="https://www.behance.net/"><img class="class=footer__image" src="assets/images/social-behance.svg" alt=""></a></li>
             <li class="footer__network">
-                <a href="https://www.linkedin.com/"><img src="assets/images/social-linked-in.svg" alt=""></a></li>
+                <a href="https://www.linkedin.com/"><img class="class=footer__image" src="assets/images/social-linked-in.svg" alt=""></a></li>
             <li class="footer__network">
-                <a href="https://plus.google.com/"><img src="assets/images/social-google.svg" alt=""></a></li>
+                <a href="https://plus.google.com/"><img class="class=footer__image" src="assets/images/social-google.svg" alt=""></a></li>
             <li class="footer__network">
-                <a href="https://www.facebook.com/"><img src="assets/images/social-facebook.svg" alt=""></a></li>
+                <a href="https://www.facebook.com/"><img class="class=footer__image" src="assets/images/social-facebook.svg" alt=""></a></li>
             <li class="footer__network">
-                <a href="https://twitter.com/"><img src="assets/images/social-twitter.svg" alt=""></a></li>
+                <a href="https://twitter.com/"><img class="class=footer__image" src="assets/images/social-twitter.svg" alt=""></a></li>
         </ul>
     </div>
 </footer>
 <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.js" defer></script>
 <script src="assets/js/flickity%20slider.js" defer></script>
 <script defer src="assets/js/map.js"></script>
-<script defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBzivyiXOgLjv-MaKuJkjNl5kk3dchM4c&callback=initMap"></script>
-
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBzivyiXOgLjv-MaKuJkjNl5kk3dchM4c&callback=initMap"></script>
+<script defer src="assets/js/scroll.js"></script>
 <!--<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js" defer></script>
 <script src="assets/js/isotope.js" defer></script>-->
 </body>

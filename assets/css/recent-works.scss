@@ -22,6 +22,15 @@
     font-family: "PT Sans";
     font-size: 20px;
     font-style: italic;
+    &:hover {
+      //background-color: #38ff9b;
+      background-image: linear-gradient(45deg, rgba(159,154,207,0.5) -10px, rgba(31, 255, 156, 0.69), rgba(159,154,207,0.1) 100%);
+      //background-image: radial-gradient(#9f9acf, #ffff00);
+      transition: 0.7s;
+      opacity: 0.6;
+      color: #008300;
+      border: none;
+    }
   }
   .main-banner {
     display: block;
