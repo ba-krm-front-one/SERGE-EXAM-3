@@ -34,7 +34,7 @@ main {
   }
   &__name {
     color: #665f60;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 17px;
     font-weight: 700;
     text-align: center;
@@ -51,7 +51,7 @@ main {
     width: 190px;
     height: 39px;
     color: #665f60;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: italic;
@@ -62,7 +62,7 @@ main {
       display: block;
       width: 346px;
       height: 59px;
-      font-family: "PT Sans";
+      font-family: "PT Sans", sans-serif;
       font-size: 17px;
       font-weight: 500;
       margin: 0 auto;

@@ -9,11 +9,15 @@
 @import url(footer.css);
 @font-face {
   font-family: "Proxima Nova";
-
+  src: url('../custom fonts/ProximaNova-Bold/ProximaNova-Bold.ttf');
+  font-weight: bold;
   font-style: normal;
 }
 *,
 *:before,
 *:after {
   box-sizing: border-box;
+}
+body {
+  overflow-x:hidden;
 }

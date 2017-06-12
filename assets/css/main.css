@@ -17,6 +17,7 @@
     height: 555px; }
     .about__image h2 {
       color: #fefbfc;
+      font-family: "Proxima Nova", sans-serif;
       font-size: 26px;
       font-weight: 600;
       line-height: 47px;
@@ -29,8 +30,6 @@
       height: 200px;
       margin-top: -50px; } }
   .about__text {
-    /*float: right;
-    margin-right: 250px;*/
     padding-top: 78px;
     display: block;
     min-width: 540px;
@@ -41,9 +40,8 @@
     min-width: 200px;
     margin: 0 auto;
     color: #665f60;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 20px;
-    /* Text style for "Nullam qui" */
     font-weight: 400; }
   .about__button {
     display: block;
@@ -54,7 +52,7 @@
     margin-top: 93px;
     margin-left: 220px;
     color: #7d7a7c;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 20px;
     font-style: italic; }
     .about__button:hover {

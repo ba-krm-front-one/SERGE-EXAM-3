@@ -14,6 +14,7 @@
     margin-top: 57px;
     float: right;
     display: block;
+    font-family: "Proxima Nova", sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 40px;
@@ -33,6 +34,7 @@
   .header__name {
     text-transform: uppercase;
     color: #fefefb;
+    font-family: "Proxima Nova", sans-serif;
     font-size: 50px;
     font-weight: 700;
     display: block;

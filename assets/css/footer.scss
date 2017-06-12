@@ -1,16 +1,10 @@
 .social {
+  overflow:hidden;
   display: block;
-  min-width: 540px;
-  max-width: 1600px;
+  min-width: 99vw;
+  max-width: 4192px;
   height: 1085px;
   background-color: #9f9acf;
- /* &__aside-contact-info {
-    display: block;
-    width: 605px;
-    height: 182px;
-    float: right;
-    margin-right: -257px;
-  }*/
   &__address {
     display: block;
     width: 348px;
@@ -18,9 +12,9 @@
     background-color: #ebebeb;
     opacity: 0.5;
     float: right;
-    //margin-right: calc(100vw - 1800px);
-    margin-right: -257px;
+    margin-right: -255px;
     &:hover{
+      display: block;
       transform: translateX(-74%);
       transition: 1s;
     }
@@ -57,7 +51,7 @@
     background-color: #ebebeb;
     opacity: 0.5;
     float: right;
-    margin-right: -257px;
+    margin-right: -255px;
     &:hover{
       transform: translateX(-74%);
       transition: 1s;
@@ -146,7 +140,7 @@
     min-width: 200px;
     width: 414px;
     height: 56px;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 13px;
     font-style: italic;
     line-height: 18px;
@@ -170,7 +164,7 @@
     min-width: 440px;
     width: 860px;
     height: 200px;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 13px;
     font-style: italic;
     line-height: 18px;
@@ -191,7 +185,7 @@
     border-radius: 4px;
     background-color: #9f9acf;
     color: #ffffff;
-    font-family: "Proxima Nova";
+    font-family: "Proxima Nova", sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 26px;
@@ -204,6 +198,9 @@
     }
   }
 }
+input::-webkit-input-placeholder {
+  color: #ffffff;
+}
 
 .footer {
   display: block;
@@ -214,12 +211,13 @@
   height: 115px;
   &__copyright {
     color: #ffffff;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
     margin: 82px 0 0 253px;
   }
   &__links {
+    display: block;
     float: right;
     margin-right: 244px;
     margin-top: -27px;
@@ -227,19 +225,19 @@
   &__network {
     display: inline-block;
     margin-left: 20px;
-  /*}
-  &__image*/
   a {
-    display: block;
+    display: inline-block;
     width: 32px;
     height: 32px;
     background-color: #21c18e;
     border: 2px solid transparent;
     border-radius: 50%;
-    :hover {
-      display: block;
-      border: 2px solid #ff3aff;
+    transition: 3s linear;
+    &:hover {
+      display: inline-block;
+      border: 2px solid #ff4025;
       border-radius: 50%;
+      transform: rotate(230deg);
     }
   }
 }}

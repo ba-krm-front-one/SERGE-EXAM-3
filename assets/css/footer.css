@@ -1,16 +1,10 @@
 .social {
+  overflow: hidden;
   display: block;
-  min-width: 540px;
-  max-width: 1600px;
+  min-width: 99vw;
+  max-width: 4192px;
   height: 1085px;
-  background-color: #9f9acf;
-  /* &__aside-contact-info {
-    display: block;
-    width: 605px;
-    height: 182px;
-    float: right;
-    margin-right: -257px;
-  }*/ }
+  background-color: #9f9acf; }
   .social__address {
     display: block;
     width: 348px;
@@ -18,8 +12,9 @@
     background-color: #ebebeb;
     opacity: 0.5;
     float: right;
-    margin-right: -257px; }
+    margin-right: -255px; }
     .social__address:hover {
+      display: block;
       transform: translateX(-74%);
       transition: 1s; }
   .social__image-container {
@@ -50,7 +45,7 @@
     background-color: #ebebeb;
     opacity: 0.5;
     float: right;
-    margin-right: -257px; }
+    margin-right: -255px; }
     .social__number:hover {
       transform: translateX(-74%);
       transition: 1s; }
@@ -128,7 +123,7 @@
     min-width: 200px;
     width: 414px;
     height: 56px;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 13px;
     font-style: italic;
     line-height: 18px;
@@ -149,7 +144,7 @@
     min-width: 440px;
     width: 860px;
     height: 200px;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 13px;
     font-style: italic;
     line-height: 18px;
@@ -169,7 +164,7 @@
     border-radius: 4px;
     background-color: #9f9acf;
     color: #ffffff;
-    font-family: "Proxima Nova";
+    font-family: "Proxima Nova", sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 26px;
@@ -180,6 +175,9 @@
       transition: 0.8s;
       background-color: #24a869; }
 
+input::-webkit-input-placeholder {
+  color: #ffffff; }
+
 .footer {
   display: block;
   position: relative;
@@ -189,27 +187,28 @@
   height: 115px; }
   .footer__copyright {
     color: #ffffff;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
     margin: 82px 0 0 253px; }
   .footer__links {
+    display: block;
     float: right;
     margin-right: 244px;
     margin-top: -27px; }
   .footer__network {
     display: inline-block;
-    margin-left: 20px;
-    /*}
-  &__image*/ }
+    margin-left: 20px; }
     .footer__network a {
-      display: block;
+      display: inline-block;
       width: 32px;
       height: 32px;
       background-color: #21c18e;
       border: 2px solid transparent;
-      border-radius: 50%; }
-      .footer__network a :hover {
-        display: block;
-        border: 2px solid #ff3aff;
-        border-radius: 50%; }
+      border-radius: 50%;
+      transition: 3s linear; }
+      .footer__network a:hover {
+        display: inline-block;
+        border: 2px solid #ff4025;
+        border-radius: 50%;
+        transform: rotate(230deg); }
