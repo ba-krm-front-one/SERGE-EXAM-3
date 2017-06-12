@@ -1,4 +1,6 @@
-	      WORKING VERSION 			
+
+        WORKING VERSION
+
 header - 1,5 h					
 main part 1 - 2 h				
 main part 2 - 1 h				
@@ -7,10 +9,14 @@ slider team - 1 h
 map with form - 7 h				
      social - 0,2 h					
 _____________________
-	TOTAL: 20,2 h
+	         20,2 h
 
 
-REFACTORING:
+ REFACTORING:
 
-в планах gulp, анимации на js, адаптив для телефонов с min-width: 540px; еще можно код укоротить
+repaired animation in footer, added overflow:hidden,
+changed 'px' to 'vw' in map and footer,
+added custom font:Proxima Nova. - 1,5 h
+______________________________________
 
+    TOTAL    21,7 h
