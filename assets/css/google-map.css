@@ -1,0 +1,8 @@
+.google-map {
+  min-width: 99vw;
+  max-width: 4192px;
+  height: 900px;
+  color: #9f9acf;
+  opacity: 0.5;
+  position: absolute;
+  overflow: hidden; }

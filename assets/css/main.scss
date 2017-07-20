@@ -1,0 +1,77 @@
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  min-width: 540px;
+  max-width: 4192px;
+  height: 800px;
+  background-color: #ebebeb;
+  &__image {
+    background: url("../images/main-people.png") 100%, no-repeat;
+    background-size: cover;
+    float: left;
+    display: block;
+    width: 380px;
+    height: 555px;
+    h2 {
+      color: #fefbfc;
+      font-family: "Proxima Nova", sans-serif;
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 47px;
+      text-transform: uppercase;
+    }
+  }
+  @media all and (max-width: 1035px) {
+    &__image {
+      display: block;
+      min-width: 540px;
+      width: 1030px;
+      height: 200px;
+      margin-top: -50px;
+    }
+  }
+  &__text {
+    padding-top: 78px;
+    display: block;
+    min-width: 540px;
+    max-width: 660px;
+    height: 555px;
+  }
+  &__some-fish {
+      width: 633px;
+      min-width: 200px;
+      margin: 0 auto;
+      color: #665f60;
+      font-family: "PT Sans", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+    }
+  &__button {
+      display: block;
+      width: 195px;
+      height: 50px;
+      border: 1px solid #7d7a7c;
+      background-color: transparent;
+      margin-top: 93px;
+      margin-left: 220px;
+      color: #7d7a7c;
+      font-family: "PT Sans", sans-serif;
+      font-size: 20px;
+      font-style: italic;
+      &:hover {
+        transition: 1.2s;
+        background-image: linear-gradient( #ebebeb, #9f9acf, #ebebeb);
+        border: none;
+        color: #ebebeb;
+      }
+    }
+  .ion-person-stalker {
+    font-size: 50px;
+    color: #ebebeb;
+    text-align: center;
+    padding-top: 75px;
+  }
+}
